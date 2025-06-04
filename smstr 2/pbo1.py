@@ -3,6 +3,7 @@ class MATAKULIAH:
         self.hari = hari
         self.matkul = matkul
         self.jam = jam
+        self.sks = 0
     
     def tampilkan_info(self):
         print(f"Hari: {self.hari}")
